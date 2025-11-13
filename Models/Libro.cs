@@ -6,8 +6,8 @@ namespace T3_Apellido_Nombre.Models
     {
         public int Id { get; set; }
 
-        [Display(Name = "Título")]
-        [Required(ErrorMessage = "El título es obligatorio")]
+    [Display(Name = "TÃ­tulo")]
+    [Required(ErrorMessage = "El tÃ­tulo es obligatorio")]
         public string Titulo { get; set; } = string.Empty;
 
         [Display(Name = "Autor")]
@@ -22,22 +22,22 @@ namespace T3_Apellido_Nombre.Models
         [Required(ErrorMessage = "La editorial es obligatoria")]
         public string Editorial { get; set; } = string.Empty;
 
-        [Display(Name = "Año de publicación")]
-        [Required(ErrorMessage = "El año de publicación es obligatorio")]
-        [Range(1900, 3000, ErrorMessage = "El año de publicación debe estar entre 1900 y 3000")]
+    [Display(Name = "AÃ±o de publicaciÃ³n")]
+    [Required(ErrorMessage = "El aÃ±o de publicaciÃ³n es obligatorio")]
+    [Range(1900, 3000, ErrorMessage = "El aÃ±o de publicaciÃ³n debe estar entre 1900 y 3000")]
         public int AnioPublicacion { get; set; }
 
-        [Display(Name = "Páginas")]
-        [Required(ErrorMessage = "Las páginas son obligatorias")]
-        [Range(10, 1000, ErrorMessage = "Las páginas deben estar entre 10 y 1000")]
+    [Display(Name = "PÃ¡ginas")]
+    [Required(ErrorMessage = "Las pÃ¡ginas son obligatorias")]
+    [Range(10, 1000, ErrorMessage = "Las pÃ¡ginas deben estar entre 10 y 1000")]
         public int Paginas { get; set; }
 
-        [Display(Name = "Categoría")]
-        [Required(ErrorMessage = "La categoría es obligatoria")]
+    [Display(Name = "CategorÃ­a")]
+    [Required(ErrorMessage = "La categorÃ­a es obligatoria")]
         public string Categoria { get; set; } = string.Empty;
 
-        [Display(Name = "Material")]
-        [Required(ErrorMessage = "El material es obligatorio")]
+    [Display(Name = "Material")]
+    [Required(ErrorMessage = "El material es obligatorio")]
         public string Material { get; set; } = string.Empty;
 
         [Display(Name = "Copias")]

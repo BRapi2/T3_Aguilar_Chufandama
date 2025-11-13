@@ -49,7 +49,7 @@ namespace T3_Apellido_Nombre.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            ModelState.AddModelError(string.Empty, "Usuario o contraseÒa inv·lidos");
+            ModelState.AddModelError(string.Empty, "Usuario o contrase√±a inv√°lidos");
             return View(model);
         }
 

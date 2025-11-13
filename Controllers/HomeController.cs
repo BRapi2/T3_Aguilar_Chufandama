@@ -13,5 +13,15 @@ namespace T3_Apellido_Nombre.Controllers
         {
             return View();
         }
+
+        public IActionResult Arquitectura()
+        {
+            return View();
+        }
+
+        public IActionResult Diseno()
+        {
+            return View();
+        }
     }
 }
