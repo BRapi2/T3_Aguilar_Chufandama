@@ -2,9 +2,9 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using T3_Apellido_Nombre.Models;
+using T3_Aguilar_Chufandama.Models;
 
-namespace T3_Apellido_Nombre.Controllers
+namespace T3_Aguilar_Chufandama.Controllers
 {
     public class AccountController : Controller
     {

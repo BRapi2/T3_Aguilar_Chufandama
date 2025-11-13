@@ -2,10 +2,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
-using T3_Apellido_Nombre.Data;
-using T3_Apellido_Nombre.Models;
+using T3_Aguilar_Chufandama.Data;
+using T3_Aguilar_Chufandama.Models;
 
-namespace T3_Apellido_Nombre.Controllers
+namespace T3_Aguilar_Chufandama.Controllers
 {
     [Authorize(Policy = "RequireAuthenticatedUser")]
     public class LibroController : Controller

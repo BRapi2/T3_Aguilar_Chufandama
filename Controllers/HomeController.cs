@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace T3_Apellido_Nombre.Controllers
+namespace T3_Aguilar_Chufandama.Controllers
 {
     public class HomeController : Controller
     {

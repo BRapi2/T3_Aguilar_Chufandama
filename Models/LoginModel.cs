@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace T3_Apellido_Nombre.Models
+namespace T3_Aguilar_Chufandama.Models
 {
     public class LoginModel
     {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using T3_Apellido_Nombre.Data;
+using T3_Aguilar_Chufandama.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

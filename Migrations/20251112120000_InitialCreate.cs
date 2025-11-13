@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace T3_Apellido_Nombre.Migrations
+namespace T3_Aguilar_Chufandama.Migrations
 {
     public partial class InitialCreate : Migration
     {

@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using T3_Apellido_Nombre.Data;
+using T3_Aguilar_Chufandama.Data;
 
 #nullable disable
 
-namespace T3_Apellido_Nombre.Migrations
+namespace T3_Aguilar_Chufandama.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -18,7 +18,7 @@ namespace T3_Apellido_Nombre.Migrations
                 .HasAnnotation("ProductVersion", "6.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            modelBuilder.Entity("T3_Apellido_Nombre.Models.Libro", b =>
+            modelBuilder.Entity("T3_Aguilar_Chufandama.Models.Libro", b =>
             {
                 b.Property<int>("Id")
                     .ValueGeneratedOnAdd()

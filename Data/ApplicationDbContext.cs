@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using T3_Apellido_Nombre.Models;
+using T3_Aguilar_Chufandama.Models;
 
-namespace T3_Apellido_Nombre.Data
+namespace T3_Aguilar_Chufandama.Data
 {
     public class ApplicationDbContext : DbContext
     {
