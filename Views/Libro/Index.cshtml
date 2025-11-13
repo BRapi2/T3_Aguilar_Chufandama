@@ -1,0 +1,45 @@
+@model IEnumerable<T3_Apellido_Nombre.Models.Libro>
+@{
+    ViewData["Title"] = "Lista de Libros";
+}
+
+<h2>Libros</h2>
+<p>
+    <a class="btn btn-primary" asp-action="Create">Crear Nuevo</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Tema</th>
+            <th>Editorial</th>
+            <th>Año</th>
+            <th>Paginas</th>
+            <th>Categoria</th>
+            <th>Material</th>
+            <th>Copias</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    <tr>
+        <td>@item.Titulo</td>
+        <td>@item.Autor</td>
+        <td>@item.Tema</td>
+        <td>@item.Editorial</td>
+        <td>@item.AnioPublicacion</td>
+        <td>@item.Paginas</td>
+        <td>@item.Categoria</td>
+        <td>@item.Material</td>
+        <td>@item.Copias</td>
+        <td>
+            <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+            <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+        </td>
+    </tr>
+}
+    </tbody>
+</table>
